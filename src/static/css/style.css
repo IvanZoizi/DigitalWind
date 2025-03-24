@@ -1,0 +1,96 @@
+* {
+    margin: 0 0 0 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 65px;
+    height: auto;
+}
+
+.inline-block-image {
+    display: inline-block; /* Устанавливаем режим inline-block для изображения */
+    width: 20%; /* Ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-right: 10px; /* Отступ справа от изображения */
+}
+
+.inline-block-text {
+    display: inline-block; /* Устанавливаем режим inline-block для текста */
+    vertical-align: top; /* Выравнивание текста по верхнему краю */
+    max-width: 70%; /* Максимальная ширина текста */
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_just_between {
+    justify-content: space-between;
+}
+
+.flex_just_center {
+    justify-content: center;
+}
+
+.flex_align_center {
+    align-items: center
+}
+
+.gap_20 {
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    background-color: #494949;
+    color: white;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    list-style-type: none
+}
+
+a {
+    margin: auto;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.menu:hover {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.logo_title {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.phone_number {
+    margin-right: 30px;
+}
+
+.navigation {
+    text-align: center;
+    margin: auto;
+}
+
+.form-data {
+    display: flex;
+    margin: 0 auto;
+}
