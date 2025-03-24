@@ -20,7 +20,7 @@ from main.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', GeeksList.as_view(), name='home'),
+    path('', IndexView.as_view(), name='home'),
     path("new_posts/", get_form_data, name="new_posts"),
 
 ]
